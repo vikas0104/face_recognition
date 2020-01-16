@@ -8,7 +8,7 @@ path = os.getcwd()
 data_path = os.path.join(path,'images')
 IDS = []
 Faces =[]
-#dummy = {'dacre':1,'emma':2,'katherine':3,'ryan':4,'shubham':5,'Thor':6,'vikas':7,'yogesh':8}
+
 ddd = {}
 count=1
 for files,roots,dirs in os.walk(data_path):
